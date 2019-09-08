@@ -72,9 +72,7 @@ session = DBSession()
 # User1 = User(name="Robo Barista", email="tinnyTim@udacity.com",
 #              picture='https://pbs.twimg.com/profile_images/2671170543/18debd694829ed78203a5a36dd364160_400x400.png')
 User1 = User(name="Shimin Lei", email="sl2kd@virginia.edu",
-             picture='https://lh3.googleusercontent.com/7oiGLqIkgRdhuPkrIm-LAQZ1dVoHjF_rHldFUYvj0K-gVlCpl'
-                     '-nDgqr7TqtQa_Gf94qa0PfSx0-nRsouo6Nt_gqO6_UgPQeLVwDNDRBvsTA7kxq6RrP0WwN7z-M'
-                     '-BM8uaqOexv9t5jVMFs8DF1ltosXJcbRKYadp2tYItLzXyDtobh89bQGUuD5wALsRggDN0vHQwbiZx75wsTfQvabl_cJxKHSG4fthCAx5gLWTLr6OPuBPhk-OSl2njM3Zz0N_XEXug3IcePac3tx04p_8tFohB9ocNzIqQIGY3beWvQinjR6OJxyT7eRagWvU5cR57O3-u50SEFVwoxAMuHMCAWLUMB15msoNfLMSE-kL48dWWLCkCh34dE3E8q6Cd9DmX1kYvifuQjx0vH9x4eyouiwXXXEs36zPLaLlLawVaZbj9Shr_d3hS4vQhtGqlqlCaiunCAVFCZMowbqGMuYqjoJ_UHqLezHnD3EyDcuCcn-7DzTmwjbHI0FoqZdasKvzIuTzfFXv7xcGFdKyHeDcdTIRAVD8ks8s-Oy5kO1JapY8kmQlP6m3nw7AFSVEMY7xxNG_drB2mIvTYaarIHbueC-Wb1UgoqtEaoOF0_xSDTX01EnZ279IHacfLA3t2HnDAwGNAhEve_TFUC5X5n2YiOrz-y24Kb1naDXNwc0mDrQKK1M0OrZV2g=s901-no')
+             picture='./static/ShiminLei.jpg')
 session.add(User1)
 session.commit()
 
