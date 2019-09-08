@@ -27,8 +27,7 @@ CLIENT_ID = json.loads(
 APPLICATION_NAME = "Restaurant Menu Application"
 
 # Connect to Database and create database session
-engine = create_engine('postgresql://restaurant:password@localhost/restaurant',
-                       connect_args={'check_same_thread': False})
+engine = create_engine('postgresql://restaurant:password@localhost/restaurant')
 Base.metadata.bind = engine
 
 DBSession = sessionmaker(bind=engine)
