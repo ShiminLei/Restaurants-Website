@@ -14,7 +14,7 @@ from sqlalchemy import create_engine, asc
 from flask import Flask, render_template, \
     request, redirect, jsonify, url_for, flash
 
-from Restaurants-Website.database_setup import Base, Restaurant, MenuItem, User
+from RestaurantsWebsite.database_setup import Base, Restaurant, MenuItem, User
 
 app = Flask(__name__)
 
