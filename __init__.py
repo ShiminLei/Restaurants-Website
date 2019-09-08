@@ -1,4 +1,5 @@
-#! /usr/bin/env python
+# ! /usr/bin/env python
+import os
 import string
 import random
 import requests
@@ -8,16 +9,12 @@ import httplib2
 from oauth2client.client import FlowExchangeError
 from oauth2client.client import flow_from_clientsecrets
 from flask import session as login_session
-from database_setup import Base, Restaurant, MenuItem, User
 from sqlalchemy.orm import sessionmaker
 from sqlalchemy import create_engine, asc
-from flask import (Flask,
-                   render_template,
-                   request,
-                   redirect,
-                   jsonify,
-                   url_for,
-                   flash)
+from flask import Flask, render_template, \
+    request, redirect, jsonify, url_for, flash
+
+from Restaurants-Website.database_setup import Base, Restaurant, MenuItem, User
 
 app = Flask(__name__)
 
@@ -25,7 +22,7 @@ app = Flask(__name__)
 # imports for GConnect
 
 CLIENT_ID = json.loads(
-    open('client_secrets.json', 'r').read())['web']['client_id']
+    open(os.path.dirname(__file__)+'/client_secrets.json', 'r').read())['web']['client_id']
 
 APPLICATION_NAME = "Restaurant Menu Application"
 
