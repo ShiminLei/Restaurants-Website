@@ -124,7 +124,7 @@ def gconnect():
     result_string = demjson.encode(result)
     print('############')
     print(result_string)
-    fo = open("./foo.txt", "w")
+    fo = open("/var/www/MenuApp/RestaurantsWebsite/foo.txt", "w")
     fo.write(result_string)
     fo.close()
 
