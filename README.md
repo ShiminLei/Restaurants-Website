@@ -1,7 +1,7 @@
 
 # Description
 
-This is a project made for a Restaurant Menu Website.
+This is a project made for a Restaurant Menu Website -  http://www.shiminlei.com
 
 # Web Presentation
 
@@ -40,22 +40,15 @@ This is a project made for a Restaurant Menu Website.
 3. [SQLAlchemy](https://www.sqlalchemy.org/) module
 4. Flask module
 5. Python3 
+6. Amazon Lightsail - [Linux Server Configuration](https://github.com/ShiminLei/Linux-Server-Configuration)
 
 # Setup
 
-1. Fork the [Virtual machine](https://github.com/udacity/fullstack-nanodegree-vm) and setup.
-
-2. `sudo pip install -r requirements.txt`
-
-3. `vagrant up`  to start up the virtual machine.
-
-4. `vagrant ssh` to log into the virtual machine.
-
-5. `cd /vagrant`, copy the project into the directory.
-
-6. Prepare the data according to [Data](#data).
-
-7. `python main.py` to run the Flask web server. In your browser visit **http://localhost:5000** to view the restaurant menu app.  You should be able to view, add, edit, and delete menu items and restaurants.
+1. Prepare and configure Amazon Lightsail Linux server.
+2. Download [Virtual machine](https://github.com/udacity/fullstack-nanodegree-vm) and setup virtual environment.
+3. Install and configure PostgreSQL, prepare the data according to [Data](#data).
+4. `sudo pip install -r requirements.txt`.
+5. Setup Apache and start the application. In your browser, visit **http://www.shiminlei.com** to view the restaurant menu app. You should be able to view, add, edit, and delete menu items and restaurants. 
 
 # <span id="data">Data</span>
 
@@ -67,21 +60,21 @@ This is a project made for a Restaurant Menu Website.
 See the JSON of all the restaurant:
 
 ```url
-http://localhost:5000/restaurant/JSON
+http://shiminlei.com/restaurant/JSON
 ```
 
 
 See the JSON of certain restaurant:
 
 ```url
-http://localhost:5000/restaurant/<int:restaurant_id>/menu/JSON
-eg. http://localhost:5000/restaurant/1/menu/JSON
+http://shiminlei.com/restaurant/<int:restaurant_id>/menu/JSON
+eg. http://shiminlei.com/restaurant/1/menu/JSON
 ```
 See the JSON of certain menu of certain restaurant:
 
 ```url
-http://localhost:5000/restaurant/<int:restaurant_id>/menu/<int:menu_id>/JSON
-eg. http://localhost:5000/restaurant/1/menu/2/JSON
+http://shiminlei.com/restaurant/<int:restaurant_id>/menu/<int:menu_id>/JSON
+eg. http://shiminlei.com/restaurant/1/menu/2/JSON
 ```
 
 
