@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="68aab4e5-ca3e-466c-a83b-957b9661304e" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client_secrets.json" beforeDir="false" afterPath="$PROJECT_DIR$/client_secrets.json" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -36,8 +35,11 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1QWOIVPiJqBauVRCGBvrIZZSzoQ" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -92,7 +94,7 @@
       <workItem from="1567975742584" duration="3014000" />
       <workItem from="1567983440276" duration="1138000" />
       <workItem from="1568003488176" duration="6766000" />
-      <workItem from="1568039557206" duration="971000" />
+      <workItem from="1568039557206" duration="1192000" />
     </task>
     <servers />
   </component>
@@ -111,5 +113,8 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
 </project>
