@@ -3,6 +3,11 @@
 
 This is a project made for a Restaurant Menu Website -  http://www.shiminlei.com
 
+- Establish a Restaurant Menu Website which provides a list of restaurants and menus information.
+- Provide a user registration and authentication system, support third-party sign-in like Google and Facebook.
+- Users can log in and register their own restaurants, and restaurant owner can add or modify the menus information.
+- Provide Web APIs with JSON endpoint of all the restaurants and menus.
+
 # Web Presentation
 
 - The main page shows all the restaurants.
