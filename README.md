@@ -10,15 +10,15 @@ This is a project made for a Restaurant Menu Website -  http://www.shiminlei.com
 
 # Web Presentation
 
-- The main page shows all the restaurants.
+- This is the home page that presents you all the restaurants register in.
 
 ![image](./picture/main.png)
 
-- You can click into a restaurant and browse the menus and information. 
+- Clicking on the restaurants' name allows you to view its menu and other informations. 
 
 ![image](./picture/restaurant.png)
 
-- You can login with google account and add your own restaurant.
+- Login with third-party accounts(Google,Facebook,etc.) and add your own restaurant.
 
 ![image](./picture/login.png)
 
@@ -26,13 +26,11 @@ This is a project made for a Restaurant Menu Website -  http://www.shiminlei.com
 
 ![image](./picture/newrestaurant.png)
 
-- You can edit your own restaurant. 
-
-  You can't change other people's restaurant information.
+- You are free to edit your restaurant but are strictly prohibited and not allowed to make any changes in other's restaurant.
 
 ![image](./picture/edit.png)
 
-- Add menus and information including name, description, price and course.
+- Add menus and information with your own preferance.
 
 ![image](./picture/addmenu.png)
 
